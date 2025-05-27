@@ -21,10 +21,7 @@ class Bank_Transaction {
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Balance: $" + balance);
     }
-}
 
-
-public class BankApplication {
     public static void main(String[] args) {
         Bank_Customer customer1 = new Bank_Customer("Amit", 1001, "Hubballi, India");
         Bank_Transaction transaction1 = new Bank_Transaction("SBI", "Amit", "Saving", 123456789L, 5000.75);
